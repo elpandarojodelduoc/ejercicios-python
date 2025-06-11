@@ -1,29 +1,28 @@
-# def saludos(nombre = "juan"):      #parametro
-#     print(F"hola, {nombre}")
+#ejerciocio 1
+def saludos(nombre = "juan"):      #parametro
+    print(F"hola, {nombre}")
 
-# saludos("Renato")         #Argumento
-
-
-
-# def sumar(a, b):
-#     print(a + b)
-
-# sumar(3, 4)
+saludos("Renato")         #Argumento
 
 
-# def multiplicacion(x, y):
-#     return x * y
-# resultado = multiplicacion(2,4)
-# print(resultado)
+#ejerciocio 2
+def sumar(a, b):
+    print(a + b)
 
-# def mostrar():
-#     mensaje = "hola"
-#     print(mensaje)
+sumar(3, 4)
 
-# mostrar()
+#ejerciocio 3
+def multiplicacion(x, y):
+    return x * y
+resultado = multiplicacion(2,4)
+print(resultado)
+#ejerciocio 4
+def mostrar():
+    mensaje = "hola"
+    print(mensaje)
 
-# num % 2 == 0
-
+mostrar()
+#ejerciocio 5
 def numero(num):
     if num % 2 == 0:
         print(f"el numero {num} es par")
